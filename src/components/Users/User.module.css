@@ -1,0 +1,12 @@
+.usersList{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.usersPhoto {
+    width: 100px;
+    height: 100px;
+}
+
+.selectedPage {
+    font-weight: bold;
+}

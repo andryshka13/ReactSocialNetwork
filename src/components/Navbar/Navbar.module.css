@@ -1,0 +1,26 @@
+.nav {
+  grid-area: nav;
+  background-color: lightskyblue;
+  padding: 20px;
+  display: table-cell;
+  position: fixed;
+  top: 60px;
+  width: 160px;
+  height: 100vh
+}
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+.item a.active {
+  color: goldenrod;
+}
+
+.nav div {
+  color: white;
+}
+
+.friendsNav {
+  margin-top: 120px;
+}

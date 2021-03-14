@@ -1,0 +1,43 @@
+.descriptionBlock {
+    padding: 10px;
+}
+
+.mainPhoto {
+    max-width: 200px;
+}
+
+.contact {
+    padding-left: 5px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.inputFile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputFile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: lightskyblue;
+    display: inline-block;
+}
+
+.inputFile:focus + label,
+.inputFile + label:hover {
+    background-color: goldenrod;
+}
+
+.changePhoto {
+    padding-left: 43px;
+    padding-bottom: 50px;
+    max-width: 200px;
+}

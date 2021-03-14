@@ -1,0 +1,41 @@
+.avatarPhoto {
+    text-align: center;
+}
+
+h1 {
+    text-align: center; 
+}
+
+.avatar {
+    padding-bottom: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.email, 
+.password {
+    width: 100%;
+    text-align: center;
+    padding: 12px ;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formLogin {
+    padding-left: 5px;
+}
+.loginButton  {
+    background-color: lightskyblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginButton:hover {
+    opacity: 0.8;
+}

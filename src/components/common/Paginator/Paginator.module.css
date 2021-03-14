@@ -1,0 +1,23 @@
+.paginator {
+    margin: 10px;
+    padding: 5px;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    border-color: black;
+}
+
+.buttonRight {
+    margin: 10px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.buttonLeft {
+    margin: 5px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
